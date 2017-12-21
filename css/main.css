@@ -1,0 +1,40 @@
+* {
+    background-color: #5b5858;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Dawning of a New Day", cursive;
+}
+
+img {
+    width: 45%;
+    border-radius: 10px;
+    border: 10px solid white;
+}
+
+.carousel-content {
+    display:none;
+}
+
+.carousel-content.active {
+    display: block;
+}
+
+.control {
+    width : 20px;
+    height: 20px;
+    margin: 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.previous, .next {
+    color: white;
+    margin: 10px 30px;
+}
+
+.control:hover, .previous:hover, .next:hover {
+    background: #4db6ac;
+    border: 1px solid #4db6ac;
+}
